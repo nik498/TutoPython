@@ -40,7 +40,7 @@ def test():
     4. 2
     """)
     choix = "0"
-    while(choix != "4"):
+    while choix != "4":
         choix = input()
         if choix != "4":
             print("Please, try again.")
