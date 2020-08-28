@@ -36,6 +36,7 @@ if menu == "play":
             lettres_choisies.add(lettre)
         if progres == solution:
             print("""You guessed the word!
-            You survived!""")
+You survived!""")
+            break
     if progres != solution:
         print("You are hanged!")
